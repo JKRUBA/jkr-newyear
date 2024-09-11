@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.asiarealestatesummit.com/wp-content/uploads/2024/04/shutterstock_1188832837-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: rgb(82, 6, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.count-down{
+    display: flex;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+small{
+    font-size: 30px;
+}
+
+.year{
+    bottom: 0;
+    position: absolute;
+    font-size: 50px;
+}
